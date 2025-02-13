@@ -350,7 +350,7 @@ function sendMessage() {
 
     // Lanjut ke pesan berikutnya
     index = (index + 1) % messages.length; // Loop kembali ke awal setelah akhir array
-  }, 10000); // Interval 10 detik per siklus
+  }, 130000); // Interval 130 detik per siklus
 }
 
 // Jalankan script
